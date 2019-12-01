@@ -1,0 +1,207 @@
+.menu ul li {
+    display: inline-block;
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+
+.menu {
+    margin-left: 20%;
+}
+
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+
+ul li a {
+    margin-left: 80px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+body {
+    background-image: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%), linear-gradient(127deg, black, black 70.71%), linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+
+.logo {
+    padding: 5px;
+}
+
+.formulaire {
+    padding: 30px 0;
+}
+
+
+label {
+    color: #fff;
+    display: inline-block;
+    max-width: 100%;
+    margin: 7px;
+    font-weight: 700;
+}
+
+
+.formulaire input, select#track {
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    display: block;
+    height: 34px;
+    padding: 3px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+select#track {
+    width: 296px !important;
+}
+
+
+
+button.submit {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+button.submit:hover {
+    opacity: .7;
+}
+
+h1.title-page {
+    font-size: 6em;
+    font-family: 'Bree Serif', serif;
+    color: #fff;
+    position: relative;
+    top: 40%;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+    position: absolute;
+    text-align: center;
+    left: 40%;
+    font-weight: lighter !important;
+}
+
+
+
+textarea#text {
+    width: 500px;
+    max-height: 100px;
+}
+
+
+textarea#demo {
+    max-width: 500px;
+    max-height: 200px;
+}
+
+
+
+.image1 {
+    background-image: url(img1.png);
+    min-height: 200px;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 20%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2%;
+}
+
+
+
+
+.image2 {
+    background-image: url(img2.png);
+    min-height: 200px;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 20%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2%;
+}
+
+
+
+.image3 {
+    background-image: url(img3.png);
+    min-height: 200px;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 20%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2%;
+}
+
+
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button.bnt1 {
+    display: none;
+}
